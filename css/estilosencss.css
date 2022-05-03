@@ -1,0 +1,217 @@
+body{
+
+	font-family: arial, helvetica;
+	
+}
+
+/*menu principal*/
+.menu{
+	list-style: none;
+	padding: 1;
+	background: black;
+	margin: auto;
+}
+
+.menu li a{
+	text-decoration: underline;
+	border-right: 1px solid #fff;
+	color: white;
+	background: rgba(0, 90, 90,0.6);
+	padding: 20px 85px;
+	display: block;
+	border-radius: 15px;
+	border-bottom: 1;
+	
+}
+.item-r{
+	float: right;
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu  li a:hover{
+	background: black;
+}
+
+
+/*imagenes*/
+
+.imag figure{
+	position: relative;
+	width: 95%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+	border-radius: 15px;
+
+}
+.imag figure img {
+	
+	width: 100%;
+	height: 200%;
+	transition: all 500ms ease-out;
+	
+}
+
+.imag figure .capa{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+
+	background: rgba(0, 90, 90,0.3);
+	
+}
+
+/*texto */
+
+.imag figure .text{
+	font-size: 2rem;
+	color: white;
+	position: absolute;
+	left: 30%;
+	top: 0px;
+	text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+
+.texto_d {
+	font-size: 2rem;
+	color: white;
+	position: absolute;
+	left: 30%;
+	
+	text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+.text2{
+	font-size: 1rem;
+	color: white;	
+	text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+/*formulario dentro de una tabla*/
+.imag figure .fromt{
+	position: absolute;
+	width: 80%;
+	height: 50%;
+	left: 2%;
+	top: 25%;
+	}
+
+/*formulario */
+{
+	  margin: 0;
+	  padding: 0;
+	  box-sizing: border-box;
+	}
+
+
+ .form-register {
+	  width: 400px;
+	  background: rgba(0, 80, 230,0.8);
+	  padding: 30px;
+	  border-radius: 4px;
+	  color: white;
+	  box-shadow: 7px 13px 37px #000;
+	}
+	
+
+	.form-register h4 {
+	  font-size: 22px;
+	  margin-bottom: 20px;
+	}
+	
+
+	.controls {
+	  width: 100%;
+	  background: transparent;
+	  padding: 10px;
+	  border-radius: 4px;
+	  margin-bottom: 16px;
+	  border: 1px solid white;
+	  font-family: 'calibri';
+	  font-size: 18px;
+	  color: white;
+	}
+	
+
+	.form-register p {
+	  height: 40px;
+	  text-align: center;
+	  font-size: 18px;
+	  line-height: 40px;
+	}
+	
+
+	.form-register a {
+	  color: white;
+	  text-decoration: none;
+	}
+
+	 .form-register .botons {
+	  width: 100%;
+	  background: #1f53c5;
+	  border: none;
+	  padding: 12px;
+	  color: white;
+	  margin: 16px 0;
+	  font-size: 16px;
+	  cursor: pointer;
+	}
+
+
+/*tabla*/
+.tabla{
+	position: absolute;
+	width: 95%;
+	height: 10%;
+
+	left: 40px;
+	
+    
+	}
+
+	.tabla table{
+	 background: rgba(5, 80, 230,0.2);
+
+	}
+
+.tabla td 
+{
+	color: white;
+
+}
+
+
+/* tablas slaidadr*/
+
+	.tabla_s table{
+
+	 background: rgba(0, 300, 300,0.7);
+	 border-radius: 6px;
+	 box-shadow: 7px 13px 37px #000;
+
+	}
+
+.tabla_s td 
+{
+	font-size: 1rem;
+	color: black;
+	
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+
+}
+
+.inicio table{
+    position: absolute;
+	left: 35%;
+	top: 150px;
+}
+
