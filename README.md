@@ -1,2 +1,0 @@
-# choches
-renta  de  coches 
